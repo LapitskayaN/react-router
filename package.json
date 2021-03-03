@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lapitskayan.github.io/react-router-starwars/",
-  "name": "react-router-starwars",
+  "homepage": "https://lapitskayan.github.io/react-router/",
+  "name": "react-router",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
