@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>hello Wilders!</p>
+        <h1>STAR WARS </h1>    
+        <h3>PLANETS</h3>   
         <Navbar />
         <Switch> 
           <Route exact path="/" render={(props)=> <Home {...props}/>} />

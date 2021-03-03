@@ -42,6 +42,7 @@ const PlanetList = (props) => {
 
     const renderItems = () => 
         state.planets.map((elem) => (
+        
         <Card 
             onClick={getPlanet}
             // key={elem.name} 
@@ -58,11 +59,12 @@ const PlanetList = (props) => {
             
             // id={elem.name}
         />
+      
         ))
     
 
     return (
-       <div>
+       <div className="cardList">
            {
                state.planets &&  renderItems()
            }

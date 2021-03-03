@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 } */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.navbar li {
+ color: yellow;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+body {
+  background:black;
+}
+
+ 
+.App {
+  text-align:center;
+  width:80%;padding-top:20px;
+  background:rgba(0, 0, 0, 0.521);
+  margin-left:auto;
+  margin-right:auto;
+    max-width:100%;
+}
+.App-header  {
+  font-size: 20 pt;
+  color: yellow;
+ 
+}
+.card {
+
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
+.card h1 {
+  color:yellow;
+}

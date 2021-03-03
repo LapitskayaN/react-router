@@ -5,7 +5,7 @@ const ClickedPlanet = (props) =>{
 
 // ({title,year, director, posterUrl}) => {
     return (
-        <div>
+        <div className="card" >
           {!props.location.state ? (
             <h1>You havent add any movies yet...</h1>
           ) : (
