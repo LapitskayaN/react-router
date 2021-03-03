@@ -1,11 +1,14 @@
 
-const Card = ({title, posterUrl, id, onClick}) => {
+const Card = ({name, climate, population, diameter, onClick}) => {
     return (
-        <div className="card" id={id}>
-            <h1>{title}</h1>
-            <img src={posterUrl} alt={title} />
-            <button id={id} onClick={(e) => onClick(e)}>
-                Cick me
+        <div className="card" id={name}>
+            <h1>{name}</h1>
+            <p>climate :{climate}</p>
+            <p> diameter : {diameter}</p>
+            <p> population : {population} </p>
+            {/* <img src={posterUrl} alt={name} /> */}
+            <button name={name} onClick={(e) => onClick(e)}>
+                Know more..
                 </button>
 
         </div>
