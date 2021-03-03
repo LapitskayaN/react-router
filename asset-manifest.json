@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-router-starwars/static/css/main.c5f236b6.chunk.css",
-    "main.js": "/react-router-starwars/static/js/main.362931f0.chunk.js",
-    "main.js.map": "/react-router-starwars/static/js/main.362931f0.chunk.js.map",
-    "runtime-main.js": "/react-router-starwars/static/js/runtime-main.31fc616d.js",
-    "runtime-main.js.map": "/react-router-starwars/static/js/runtime-main.31fc616d.js.map",
-    "static/js/2.992d3ce0.chunk.js": "/react-router-starwars/static/js/2.992d3ce0.chunk.js",
-    "static/js/2.992d3ce0.chunk.js.map": "/react-router-starwars/static/js/2.992d3ce0.chunk.js.map",
+    "main.js": "/react-router-starwars/static/js/main.f3d81f77.chunk.js",
+    "main.js.map": "/react-router-starwars/static/js/main.f3d81f77.chunk.js.map",
+    "runtime-main.js": "/react-router-starwars/static/js/runtime-main.aa4e309c.js",
+    "runtime-main.js.map": "/react-router-starwars/static/js/runtime-main.aa4e309c.js.map",
+    "static/js/2.fb451e3c.chunk.js": "/react-router-starwars/static/js/2.fb451e3c.chunk.js",
+    "static/js/2.fb451e3c.chunk.js.map": "/react-router-starwars/static/js/2.fb451e3c.chunk.js.map",
     "index.html": "/react-router-starwars/index.html",
     "static/css/main.c5f236b6.chunk.css.map": "/react-router-starwars/static/css/main.c5f236b6.chunk.css.map",
-    "static/js/2.992d3ce0.chunk.js.LICENSE.txt": "/react-router-starwars/static/js/2.992d3ce0.chunk.js.LICENSE.txt"
+    "static/js/2.fb451e3c.chunk.js.LICENSE.txt": "/react-router-starwars/static/js/2.fb451e3c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.31fc616d.js",
-    "static/js/2.992d3ce0.chunk.js",
+    "static/js/runtime-main.aa4e309c.js",
+    "static/js/2.fb451e3c.chunk.js",
     "static/css/main.c5f236b6.chunk.css",
-    "static/js/main.362931f0.chunk.js"
+    "static/js/main.f3d81f77.chunk.js"
   ]
 }
