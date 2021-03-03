@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer">               
             <p>Wild Code School </p>
             <p> workshop react route</p>
-            <p> by Natalia Lapitskaya</p>
+            <p> </p>
         </div>
 
     )

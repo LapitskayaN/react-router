@@ -6,7 +6,7 @@ const  initialState = {
     randomMovie: {},
 }
 
-const url = 'http://swapi.dev/api/planets/'
+const url = 'https://swapi.dev/api/planets/'
 
 const PlanetList = (props) => {
 
