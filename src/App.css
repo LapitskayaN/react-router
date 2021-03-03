@@ -37,40 +37,66 @@
   }
 } */
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  
-}
 
-.navbar li {
- color: yellow;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.cardList {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 
 body {
   background:black;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.navbar li {
+ color: yellow;
+}
+.home {
+  padding: 20px;
+ }
+
+.footer  {
+  height: 80px;  
+  font-size: 20 pt;
+  color: yellow;
+}
+
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: "https://oformi.net/uploads/gallery/main/246/movie-star-wars-2786.jpg";
+}
+
+
  
-.App {
+.App { 
   text-align:center;
   width:80%;padding-top:20px;
   background:rgba(0, 0, 0, 0.521);
   margin-left:auto;
   margin-right:auto;
-    max-width:100%;
+  max-width:100%;
 }
+
+
 .App-header  {
+  min-height: calc(100vh - 80px);
+  
   font-size: 20 pt;
   color: yellow;
+
  
 }
+.App-header img {
+  height: 200px;
+  width: auto;
+}
+
 .card {
 
   padding: 8px 16px;

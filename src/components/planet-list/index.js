@@ -55,7 +55,7 @@ const PlanetList = (props) => {
             terrain= {elem.terrain}  
             surface_water= {elem.surface_water}  
             population= {elem.population}  
-          
+            residents= {elem.residents}  
             
             // id={elem.name}
         />
