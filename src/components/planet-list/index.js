@@ -18,25 +18,30 @@ const PlanetList = (props) => {
     const getData = () => {
         fetch(url)
         .then(res => res.json())
-        .then(data => setState({
+        .then((data) => 
+        setState({
             ...state,
             planets: data.results
         }))
     }
-
+    
     const getPlanet =(e) =>{
-        const clickedPlanet = state.planets.find(elem => elem.name == e.target.name);
-        setState ({
-            ...state,
-            randomMovie: clickedPlanet
-        })
+        const planet = state.planets.find(elem => elem.name == e.target.name);
+        // const clickedPlanet = state.planets.find(elem => elem.name == e.target.name);
+        
+        // setState ({
+        //     ...state,
+        //     randomMovie: planet
+        // })
 
         props.history.push({
-            pathname: '/movie',
+            pathname: '/list/${planet.name}',
+            // pathname: '/planet',
             state: {
-                randomMovie: clickedPlanet
-            }
-        })
+                randomMovie: planet,
+                // randomMovie: clickedPlanet
+            },
+        });
        
     };
 

@@ -18,8 +18,9 @@ function App() {
         <Navbar />
         <Switch> 
           <Route exact path="/" render={(props)=> <Home {...props}/>} />
+          <Route exact path="/list/:name" render={(props)=> <ClickedPlanet {...props}/>} />
           <Route exact path="/list" render={(props)=> <PlanetList {...props}/>} />
-          <Route exact path="/movie" render={(props)=> <ClickedPlanet {...props}/>} />
+           {/* <Route exact path="/planet" render={(props)=> <ClickedPlanet {...props}/>} />  */}
         </Switch>
         
       </header>
