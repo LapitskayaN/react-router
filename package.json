@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lapitskayan.github.io/react-router",
-  "name": "react-router",
+  "homepage": "https://lapitskayan.github.io/react-router-swapi",
+  "name": "react-router-swapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
